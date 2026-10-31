@@ -14,7 +14,11 @@ void main() async {
   // Load environment variables from .env file.
   // The .env file is excluded from version control. Copy .env.example to .env
   // and fill in your real API keys to get started.
-  await dotenv.load(fileName: '.env');
+  try {
+    await dotenv.load(fileName: '.env');
+  } catch (e) {
+    debugPrint('Environment file not found: $e — using local demo configuration.');
+  }
 
   // Initialize Hive local storage
   await Hive.initFlutter();
@@ -34,13 +38,13 @@ void main() async {
 
   runApp(
     const ProviderScope(
-      child: CineSphereApp(),
+      child: WatchlyApp(),
     ),
   );
 }
 
-class CineSphereApp extends ConsumerWidget {
-  const CineSphereApp({super.key});
+class WatchlyApp extends ConsumerWidget {
+  const WatchlyApp({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

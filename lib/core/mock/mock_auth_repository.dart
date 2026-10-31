@@ -8,7 +8,7 @@ class MockAuthRepository implements AuthRepository {
   static final List<UserModel> _users = [
     UserModel(
       uid: 'user_1',
-      email: 'alex@cinesphere.com',
+      email: 'alex@watchly.app',
       username: 'alex_cinephile',
       bio: 'Movies are my religion. Cinema is my church.',
       photoUrl: '',
@@ -23,7 +23,7 @@ class MockAuthRepository implements AuthRepository {
     ),
     UserModel(
       uid: 'user_2',
-      email: 'sara@cinesphere.com',
+      email: 'sara@watchly.app',
       username: 'sara_watches',
       bio: 'Horror & comedy lover. Always looking for hidden gems.',
       photoUrl: '',
@@ -38,7 +38,7 @@ class MockAuthRepository implements AuthRepository {
     ),
     UserModel(
       uid: 'user_3',
-      email: 'kai@cinesphere.com',
+      email: 'kai@watchly.app',
       username: 'kai_reviews',
       bio: 'Nolan fanboy. Kubrick worshipper. Aspiring director.',
       photoUrl: '',

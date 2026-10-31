@@ -348,7 +348,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen>
                         color: Colors.white, size: 18),
                   ),
                   const SizedBox(width: 10),
-                  Text('CineVerse',
+                  Text('Watchly',
                       style: GoogleFonts.outfit(
                           color: textColor,
                           fontSize: 18,
@@ -628,7 +628,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen>
                   style: GoogleFonts.inter(
                       color: subtitleColor, fontSize: 14),
                   children: [
-                    const TextSpan(text: 'New to CineVerse? '),
+                    const TextSpan(text: 'New to Watchly? '),
                     WidgetSpan(
                       child: GestureDetector(
                         onTap: () =>

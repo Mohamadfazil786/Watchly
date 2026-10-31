@@ -1,5 +1,5 @@
 class AppConstants {
-  static const String appName = 'CineSphere';
+  static const String appName = 'Watchly';
   static const String tmdbImageBase = 'https://image.tmdb.org/t/p/';
 
   // Image sizes

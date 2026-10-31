@@ -37,7 +37,7 @@ import '../constants/app_constants.dart';
 final authRepositoryProvider = Provider<AuthRepository>((ref) {
   if (AppConfig.useMockRepositories || Firebase.apps.isEmpty) {
     if (Firebase.apps.isEmpty && !AppConfig.useMockRepositories) {
-      debugPrint('CineSphere Warning: Firebase not initialized. Falling back to MockAuthRepository.');
+      debugPrint('Watchly Warning: Firebase not initialized. Falling back to MockAuthRepository.');
     }
     return MockAuthRepository();
   }
@@ -52,7 +52,7 @@ final moviesRepositoryProvider = Provider<MoviesRepository>((ref) {
 final reviewsRepositoryProvider = Provider<ReviewsRepository>((ref) {
   if (AppConfig.useMockRepositories || Firebase.apps.isEmpty) {
     if (Firebase.apps.isEmpty && !AppConfig.useMockRepositories) {
-      debugPrint('CineSphere Warning: Firebase not initialized. Falling back to MockReviewsRepository.');
+      debugPrint('Watchly Warning: Firebase not initialized. Falling back to MockReviewsRepository.');
     }
     return MockReviewsRepository();
   }
@@ -62,7 +62,7 @@ final reviewsRepositoryProvider = Provider<ReviewsRepository>((ref) {
 final socialRepositoryProvider = Provider<SocialRepository>((ref) {
   if (AppConfig.useMockRepositories || Firebase.apps.isEmpty) {
     if (Firebase.apps.isEmpty && !AppConfig.useMockRepositories) {
-      debugPrint('CineSphere Warning: Firebase not initialized. Falling back to MockSocialRepository.');
+      debugPrint('Watchly Warning: Firebase not initialized. Falling back to MockSocialRepository.');
     }
     return MockSocialRepository();
   }
@@ -72,7 +72,7 @@ final socialRepositoryProvider = Provider<SocialRepository>((ref) {
 final listsRepositoryProvider = Provider<ListsRepository>((ref) {
   if (AppConfig.useMockRepositories || Firebase.apps.isEmpty) {
     if (Firebase.apps.isEmpty && !AppConfig.useMockRepositories) {
-      debugPrint('CineSphere Warning: Firebase not initialized. Falling back to MockListsRepository.');
+      debugPrint('Watchly Warning: Firebase not initialized. Falling back to MockListsRepository.');
     }
     return MockListsRepository();
   }
@@ -187,6 +187,5 @@ class ReviewLikesNotifier extends StateNotifier<Map<String, bool>> {
 final reviewCommentsProvider = FutureProvider.autoDispose.family<List<CommentModel>, String>((ref, reviewId) {
   return ref.watch(reviewsRepositoryProvider).getReviewComments(reviewId);
 });
-
 
 

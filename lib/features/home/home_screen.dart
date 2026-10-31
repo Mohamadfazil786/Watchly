@@ -212,7 +212,7 @@ class _CineAppBar extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(
-                'CineVerse',
+                'Watchly',
                 style: GoogleFonts.outfit(
                   color: context.textPrimary,
                   fontWeight: FontWeight.w800,

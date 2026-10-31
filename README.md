@@ -1,7 +1,7 @@
 <div align="center">
-<img src="img/poster.png" alt="CineVerse Poster" width="100%"/>
+<img src="img/poster.png" alt="Watchly Poster" width="100%"/>
 
-# CineVerse
+# Watchly
 
 **An elegant social platform for movie and television enthusiasts**
 
@@ -16,9 +16,9 @@
 
 ## About
 
-CineVerse is a feature-rich Flutter application that bridges the gap between cataloging databases and community networking, giving users a single place to discover, log, review, and organize cinema while engaging with a community of like-minded film and TV enthusiasts.
+Watchly is a feature-rich Flutter application that bridges the gap between cataloging databases and community networking, giving users a single place to discover, log, review, and organize cinema while engaging with a community of like-minded film and TV enthusiasts.
 
-Rather than treating movie tracking and social interaction as separate concerns, CineVerse unifies them around a shared data model: a logged movie becomes a feed post, a review becomes a discussion thread, and a curated list becomes something to follow and share. The app is powered by The Movie Database (TMDB) for media metadata and integrates Google's Gemini models directly into the discovery experience, moving beyond simple keyword search toward mood-based and comparative recommendations.
+Rather than treating movie tracking and social interaction as separate concerns, Watchly unifies them around a shared data model: a logged movie becomes a feed post, a review becomes a discussion thread, and a curated list becomes something to follow and share. The app is powered by The Movie Database (TMDB) for media metadata and integrates Google's Gemini models directly into the discovery experience, moving beyond simple keyword search toward mood-based and comparative recommendations.
 
 ---
 
@@ -48,7 +48,7 @@ Rather than treating movie tracking and social interaction as separate concerns,
 
 ## Technology Stack & Architecture
 
-CineVerse uses a modern architecture optimized for scalability, clean state separation, and cross-platform performance.
+Watchly uses a modern architecture optimized for scalability, clean state separation, and cross-platform performance.
 
 ### Core Architecture
 - **Presentation Layer (Flutter)** — Declarative, reusable UI components styled with a customized Material Design theme.

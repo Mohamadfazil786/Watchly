@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:training_v0/core/models/user_model.dart';
-import 'package:training_v0/core/models/review_model.dart';
-import 'package:training_v0/core/models/custom_list_model.dart';
+import 'package:watchly/core/models/user_model.dart';
+import 'package:watchly/core/models/review_model.dart';
+import 'package:watchly/core/models/custom_list_model.dart';
 
 void main() {
   group('Model Serialization Tests', () {

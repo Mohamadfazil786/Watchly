@@ -2,7 +2,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class AppConfig {
   /// Toggle this to switch between Mock/Local Data Mode and live Firebase/APIs.
-  static const bool useMockRepositories = false;
+  static const bool useMockRepositories = true;
 
   /// TMDB API Read Access Token (Bearer Token).
   /// Loaded from .env file — do NOT hardcode.

@@ -172,7 +172,7 @@ class _AiScreenState extends ConsumerState<AiScreen> with SingleTickerProviderSt
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'CineSphere AI',
+                        'Watchly AI',
                         style: GoogleFonts.outfit(
                           color: textColor,
                           fontSize: 24,
@@ -249,7 +249,7 @@ class _AiScreenState extends ConsumerState<AiScreen> with SingleTickerProviderSt
                 ),
                 const SizedBox(height: 8),
                 Text(
-                  'Let CineSphere AI scan your rating history, favorite genres, and watchlist items to generate tailored recommendations.',
+                  'Let Watchly AI scan your rating history, favorite genres, and watchlist items to generate tailored recommendations.',
                   style: GoogleFonts.inter(color: context.textSecondary, fontSize: 13, height: 1.4),
                 ),
                 const SizedBox(height: 16),
@@ -369,7 +369,7 @@ class _AiScreenState extends ConsumerState<AiScreen> with SingleTickerProviderSt
           ),
           const SizedBox(height: 4),
           Text(
-            'Let CineSphere AI break down script writing, acting, visual cinematography, and pacing.',
+            'Let Watchly AI break down script writing, acting, visual cinematography, and pacing.',
             style: GoogleFonts.inter(color: subColor, fontSize: 12),
           ),
           const SizedBox(height: 16),
@@ -513,6 +513,5 @@ class _AiScreenState extends ConsumerState<AiScreen> with SingleTickerProviderSt
     );
   }
 }
-
 
 

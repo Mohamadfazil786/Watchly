@@ -31,7 +31,7 @@ class GeminiAiRepository implements AiRepository {
     final ratedStr = highlyRatedMovies.take(5).join(', ');
 
     final prompt = '''
-You are a world-class film critic and recommendation engine for a premium app called CineSphere.
+You are a world-class film critic and recommendation engine for a premium app called Watchly.
 
 The user loves these genres: $genreStr.
 They have watched: $watchedStr.
@@ -50,7 +50,7 @@ Keep the tone intelligent, warm, and cinephile-friendly. Format with clear line 
   @override
   Future<String> getMoodBasedRecommendations(String moodPrompt) async {
     final prompt = '''
-You are a film concierge for CineSphere, a premium movie social app.
+You are a film concierge for Watchly, a premium movie social app.
 
 The user is in the mood for: "$moodPrompt"
 
@@ -68,7 +68,7 @@ Make the recommendations feel personal and exciting, not like a Wikipedia list.'
   @override
   Future<String> compareMedia(String titleA, String titleB) async {
     final prompt = '''
-You are a film critic for CineSphere writing a head-to-head comparison between two works.
+You are a film critic for Watchly writing a head-to-head comparison between two works.
 
 Compare **$titleA** vs **$titleB** across these dimensions:
 1. **Story & Screenplay** — structure, originality, themes
@@ -101,7 +101,7 @@ Keep the tone of a sharp, witty critic who respects both films.''';
     }
 
     final prompt = '''
-You are writing a film review for CineSphere, a premium movie-tracking social platform. Think Letterboxd meets The Guardian.
+You are writing a film review for Watchly, a premium movie-tracking social platform. Think Letterboxd meets The Guardian.
 
 Film: **$movieTitle**
 User Rating: $ratingStr / 10

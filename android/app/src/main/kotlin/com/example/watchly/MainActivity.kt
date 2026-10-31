@@ -1,4 +1,4 @@
-package com.example.training_v0
+package com.example.watchly
 
 import io.flutter.embedding.android.FlutterActivity
 

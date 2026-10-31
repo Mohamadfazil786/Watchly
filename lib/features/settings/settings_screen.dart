@@ -135,11 +135,11 @@ class SettingsScreen extends ConsumerWidget {
           _buildSettingsTile(
             context,
             icon: Icons.info_outline_rounded,
-            title: 'About CineVerse',
+            title: 'About Watchly',
             onTap: () {
               showAboutDialog(
                 context: context,
-                applicationName: 'CineVerse',
+                applicationName: 'Watchly',
                 applicationVersion: '1.0.0',
                 applicationIcon: Container(
                   width: 48,
@@ -150,7 +150,7 @@ class SettingsScreen extends ConsumerWidget {
                   ),
                   child: const Icon(Icons.movie_filter_rounded, color: Colors.white, size: 28),
                 ),
-                applicationLegalese: '© 2026 CineVerse Team. All rights reserved.',
+                applicationLegalese: '© 2026 Watchly Team. All rights reserved.',
               );
             },
           ),
@@ -233,6 +233,5 @@ class SettingsScreen extends ConsumerWidget {
     );
   }
 }
-
 
 

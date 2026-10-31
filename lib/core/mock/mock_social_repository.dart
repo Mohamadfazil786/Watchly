@@ -15,9 +15,9 @@ class MockSocialRepository implements SocialRepository {
   ];
 
   static final List<UserModel> _allUsers = [
-    UserModel(uid: 'user_1', email: 'alex@cinesphere.com', username: 'alex_cinephile', bio: 'Movies are my religion.', favoriteGenres: ['Sci-Fi', 'Thriller'], followersCount: 248, followingCount: 112, reviewsCount: 87, moviesWatchedCount: 342, createdAt: DateTime(2024, 1, 15)),
-    UserModel(uid: 'user_2', email: 'sara@cinesphere.com', username: 'sara_watches', bio: 'Horror & comedy lover.', favoriteGenres: ['Horror', 'Comedy'], followersCount: 510, followingCount: 89, reviewsCount: 134, moviesWatchedCount: 567, createdAt: DateTime(2023, 8, 3)),
-    UserModel(uid: 'user_3', email: 'kai@cinesphere.com', username: 'kai_reviews', bio: 'Nolan fanboy. Kubrick worshipper.', favoriteGenres: ['Drama', 'Action'], followersCount: 193, followingCount: 220, reviewsCount: 52, moviesWatchedCount: 201, createdAt: DateTime(2024, 3, 22)),
+    UserModel(uid: 'user_1', email: 'alex@watchly.app', username: 'alex_cinephile', bio: 'Movies are my religion.', favoriteGenres: ['Sci-Fi', 'Thriller'], followersCount: 248, followingCount: 112, reviewsCount: 87, moviesWatchedCount: 342, createdAt: DateTime(2024, 1, 15)),
+    UserModel(uid: 'user_2', email: 'sara@watchly.app', username: 'sara_watches', bio: 'Horror & comedy lover.', favoriteGenres: ['Horror', 'Comedy'], followersCount: 510, followingCount: 89, reviewsCount: 134, moviesWatchedCount: 567, createdAt: DateTime(2023, 8, 3)),
+    UserModel(uid: 'user_3', email: 'kai@watchly.app', username: 'kai_reviews', bio: 'Nolan fanboy. Kubrick worshipper.', favoriteGenres: ['Drama', 'Action'], followersCount: 193, followingCount: 220, reviewsCount: 52, moviesWatchedCount: 201, createdAt: DateTime(2024, 3, 22)),
   ];
 
   @override

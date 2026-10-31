@@ -475,7 +475,7 @@ class _RegisterScreenState extends ConsumerState<RegisterScreen>
                         color: Colors.white, size: 16),
                   ),
                   const SizedBox(width: 8),
-                  Text('CineVerse',
+                  Text('Watchly',
                       style: GoogleFonts.outfit(
                           color: textColor,
                           fontSize: 16,
